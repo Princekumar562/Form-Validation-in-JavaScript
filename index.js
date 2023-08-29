@@ -28,7 +28,6 @@ function validateName(){
     nameError.previousElementSibling.classList.add('fa-check');
     return true;
 }
-
 function validateEmail(){
     let email = document.getElementById('email').value;
 
