@@ -55,7 +55,6 @@ function validatePassword(){
         passError.previousElementSibling.classList.add('fa-xmark');
         return false;
     }
-
     if(!password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,30}$/)){
         passError.innerHTML = "Password should contain 1 Uppercase, 1 Lowecase, 1 Digit & 1 Alphabet";
         passError.previousElementSibling.classList.add('fa-xmark');
