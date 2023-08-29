@@ -10,8 +10,6 @@ submitBtn.addEventListener('click', (e)=>{
         alert("Form Submitted Successfully");
     }
 });
-
-
 function validateName(){
     let name = document.getElementById('name').value;
 
